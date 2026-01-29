@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide de la Productivité Étudiante</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* CSS Interne */
+        .special-quote {
+            font-style: italic;
+            color: #1e3a8a;
+            background: linear-gradient(135deg, #e0f2fe 0%, #bfdbfe 100%);
+            padding: 20px;
+            border-left: 5px solid #2563eb;
+            margin: 30px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .method-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .method-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(37, 99, 235, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header avec photo et titre -->
+    <header id="top">
+        <div class="header-content">
+            <img src="me.jfif" alt="Auteur Hasnae Admane" class="profile-photo">
+            <h1>Guide de la Productivité Étudiante</h1>
+            <p class="tagline">Méthodes, outils et stratégies pour réussir vos études</p>
+        </div>
+        
+        <!-- QR Code positionné en absolu -->
+        <div class="qr-code">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://github.com/hasnae-admane" alt="QR Code GitHub">
+            <p>Scannez pour GitHub</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul class="menu">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#methodes">Méthodes</a></li>
+            <li><a href="#organisation">Organisation</a></li>
+            <li><a href="#outils">Outils</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenu principal -->
+    <main>
+        <!-- Section Accueil -->
+        <section id="accueil">
+            <h2>🎓 Bienvenue</h2>
+            <article>
+                <p>Ce guide est conçu pour aider tous les étudiants à améliorer leur productivité et leurs performances académiques. Que vous soyez au lycée, à l'université ou en formation professionnelle, vous trouverez ici des méthodes éprouvées et des outils pratiques pour optimiser votre apprentissage.</p>
+                
+                <div class="special-quote">
+                    "Le succès n'est pas la clé du bonheur. Le bonheur est la clé du succès. Si vous aimez ce que vous faites, vous réussirez." — Albert Schweitzer
+                </div>
+
+                <p>La productivité étudiante ne consiste pas à travailler plus, mais à travailler mieux. En appliquant les bonnes techniques et en utilisant les bons outils, vous pouvez maximiser votre temps d'étude tout en préservant votre bien-être.</p>
+            </article>
+        </section>
+
+        <!-- Section Méthodes -->
+        <section id="methodes">
+            <h2>📚 Méthodes de Travail</h2>
+            <div class="gallery-grid">
+                <div class="method-card">
+                    <div class="card-icon">🍅</div>
+                    <h3>Technique Pomodoro</h3>
+                    <p><strong>Principe :</strong> Travaillez en sessions de 25 minutes suivies de 5 minutes de pause. Après 4 sessions, prenez une pause plus longue de 15-30 minutes.</p>
+                    <p><strong>Avantages :</strong> Maintient la concentration, réduit la fatigue mentale, augmente la productivité.</p>
+                </div>
+                <div class="method-card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Méthode Feynman</h3>
+                    <p><strong>Principe :</strong> Expliquez un concept comme si vous l'enseigniez à quelqu'un qui ne le connaît pas. Identifiez vos lacunes et révisez.</p>
+                    <p><strong>Avantages :</strong> Compréhension profonde, mémorisation durable, identification des points faibles.</p>
+                </div>
+                <div class="method-card">
+                    <div class="card-icon">🔄</div>
+                    <h3>Répétition Espacée</h3>
+                    <p><strong>Principe :</strong> Révisez les informations à des intervalles croissants (1 jour, 3 jours, 1 semaine, 1 mois).</p>
+                    <p><strong>Avantages :</strong> Mémorisation à long terme, lutte contre la courbe de l'oubli, apprentissage efficace.</p>
+                </div>
+                <div class="method-card">
+                    <div class="card-icon">🧩</div>
+                    <h3>Mind Mapping</h3>
+                    <p><strong>Principe :</strong> Créez des cartes mentales visuelles pour organiser les informations autour d'un concept central.</p>
+                    <p><strong>Avantages :</strong> Vision d'ensemble, créativité, mémorisation visuelle, connexions entre concepts.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Organisation -->
+        <section id="organisation">
+            <h2>📅 Organisation & Planning</h2>
+            <div class="services-container">
+                <article class="service-card">
+                    <h3>📋 Planning Hebdomadaire</h3>
+                    <p><strong>Dimanche soir :</strong> Planifiez votre semaine en identifiant vos priorités académiques.</p>
+                    <p><strong>Répartition :</strong> Divisez votre temps entre cours, révisions, projets et loisirs.</p>
+                    <p><strong>Flexibilité :</strong> Prévoyez des marges pour les imprévus et les urgences.</p>
+                </article>
+                <article class="service-card">
+                    <h3>✅ Matrice Eisenhower</h3>
+                    <p><strong>Urgent & Important :</strong> À faire immédiatement (examens proches, devoirs à rendre).</p>
+                    <p><strong>Important mais non urgent :</strong> À planifier (révisions, projets long terme).</p>
+                    <p><strong>Urgent mais non important :</strong> À déléguer ou minimiser.</p>
+                </article>
+                <article class="service-card">
+                    <h3>🎯 Objectifs SMART</h3>
+                    <p><strong>S</strong>pécifique : Objectif clair et précis</p>
+                    <p><strong>M</strong>esurable : Quantifiable et vérifiable</p>
+                    <p><strong>A</strong>tteignable : Réaliste et faisable</p>
+                    <p><strong>R</strong>elevant : Aligné avec vos objectifs généraux</p>
+                    <p><strong>T</strong>emporel : Avec une échéance définie</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section Outils avec Tableau -->
+        <section id="outils">
+            <h2>🛠️ Outils Recommandés</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nom de l'Outil</th>
+                            <th>Catégorie</th>
+                            <th>Fonctionnalités</th>
+                            <th>Prix</th>
+                            <th>Plateforme</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Notion</td>
+                            <td>Prise de notes</td>
+                            <td>Notes, bases de données, wikis, planning</td>
+                            <td>Gratuit (étudiants)</td>
+                            <td>Web, Mobile, Desktop</td>
+                        </tr>
+                        <tr>
+                            <td>Anki</td>
+                            <td>Flashcards</td>
+                            <td>Répétition espacée, cartes personnalisables</td>
+                            <td>Gratuit</td>
+                            <td>Web, Mobile, Desktop</td>
+                        </tr>
+                        <tr>
+                            <td>Forest</td>
+                            <td>Concentration</td>
+                            <td>Pomodoro gamifié, blocage distractions</td>
+                            <td>Payant (3€)</td>
+                            <td>Mobile, Desktop</td>
+                        </tr>
+                        <tr>
+                            <td>Trello</td>
+                            <td>Gestion projets</td>
+                            <td>Tableaux Kanban, collaboration, deadlines</td>
+                            <td>Gratuit</td>
+                            <td>Web, Mobile, Desktop</td>
+                        </tr>
+                        <tr>
+                            <td>Evernote</td>
+                            <td>Prise de notes</td>
+                            <td>Organisation notes, scanner, synchronisation</td>
+                            <td>Freemium</td>
+                            <td>Web, Mobile, Desktop</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <article style="margin-top: 40px;">
+                <h3>💻 Applications par Usage</h3>
+                <div class="app-list">
+                    <div class="app-category">
+                        <h4>📝 Prise de Notes</h4>
+                        <p>Notion, OneNote, Evernote, Google Keep, Obsidian</p>
+                    </div>
+                    <div class="app-category">
+                        <h4>⏰ Gestion du Temps</h4>
+                        <p>Forest, Toggl Track, RescueTime, Clockify, Pomofocus</p>
+                    </div>
+                    <div class="app-category">
+                        <h4>🧠 Mémorisation</h4>
+                        <p>Anki, Quizlet, RemNote, Brainscape, Memrise</p>
+                    </div>
+                    <div class="app-category">
+                        <h4>📊 Organisation</h4>
+                        <p>Trello, Todoist, Asana, Microsoft To Do, TickTick</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact">
+            <h2>📬 Contact & Ressources</h2>
+            <article class="contact-content">
+                <p>Ce guide a été créé pour aider la communauté étudiante. Pour toute question, suggestion ou partage d'expérience, n'hésitez pas à nous contacter.</p>
+
+                <div class="contact-buttons">
+                    <a href="mailto:hasnae.admane@example.com" class="btn-email">
+                        📧 Nous Contacter
+                    </a>
+                    <a href="#top" class="btn-top">
+                        ⬆️ Retour en Haut
+                    </a>
+                </div>
+
+                <div class="resources-box">
+                    <h3>📚 Ressources Complémentaires</h3>
+                    <ul class="resources-list">
+                        <li>📖 "Deep Work" de Cal Newport - Sur la concentration profonde</li>
+                        <li>📖 "Atomic Habits" de James Clear - Sur les habitudes</li>
+                        <li>🎥 Chaîne YouTube : Ali Abdaal - Productivité pour étudiants</li>
+                        <li>🎥 Chaîne YouTube : Thomas Frank - Techniques d'apprentissage</li>
+                        <li>🌐 Site : Study With Me - Sessions d'étude en communauté</li>
+                        <li>🌐 Subreddit : r/GetStudying - Communauté de soutien</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+
+        <!-- Aside pour informations supplémentaires -->
+        <aside class="info-box">
+            <h3>💡 Conseil Important</h3>
+            <p>La productivité n'est pas une course. Chaque étudiant est différent et doit trouver les méthodes qui lui conviennent le mieux. N'hésitez pas à expérimenter avec différentes techniques et outils avant de trouver votre système idéal. L'important est la régularité et la constance, pas la perfection.</p>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p class="copyright">© 2026 Hasnae Admane. Tous droits réservés.</p>
+            <pre class="ascii-art">
+ _   _                             
+| | | | __ _ ___ _ __   __ _  ___ 
+| |_| |/ _` / __| '_ \ / _` |/ _ \
+|  _  | (_| \__ \ | | | (_| |  __/
+|_| |_|\__,_|___/_| |_|\__,_|\___|
+                                   
+    _       _                            
+   / \   __| |_ __ ___   __ _ _ __   ___ 
+  / _ \ / _` | '_ ` _ \ / _` | '_ \ / _ \
+ / ___ \ (_| | | | | | | (_| | | | |  __/
+/_/   \_\__,_|_| |_| |_|\__,_|_| |_|\___|
+            </pre>
+            <p class="footer-links">
+                <a href="#accueil">Accueil</a> | 
+                <a href="#methodes">Méthodes</a> | 
+                <a href="#organisation">Organisation</a> | 
+                <a href="#outils">Outils</a> | 
+                <a href="#contact">Contact</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
